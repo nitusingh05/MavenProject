@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test9(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.google.com/"/>
+    <classes>
+      <class name="org.example.ParameterExample">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="getTitlefromPage"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- org.example.ParameterExample -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
